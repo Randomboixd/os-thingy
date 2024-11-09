@@ -1,0 +1,2 @@
+[org.gnome.shell]
+enabled-extensions = ['appindicatorsupport@rgcjonas.gmail.com', 'pop-shell@system76.com', 'ding@rastersoft.com', 'dash-to-dock@micxgx.gmaill.com', 'blur-my-shell@aunetx']

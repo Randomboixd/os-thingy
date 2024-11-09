@@ -1,0 +1,4 @@
+modules:
+  - type: gschema-overrides
+    include:
+      - zz1-mcmojave.gschema.override

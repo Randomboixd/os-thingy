@@ -1,0 +1,4 @@
+modules:
+  - from-file: extensions.yml
+  - from-file: gnome_specific.yml
+  - from-file: icons.yml

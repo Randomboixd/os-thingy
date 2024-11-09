@@ -15,11 +15,16 @@ modules:
       - source: system
         destination: / # copies files/system/* (* means everything inside it) into your image's root folder /
 
+  - type: script
+    scripts:
+      - fetch_mcmojave_icons.sh
+
   - from-file: configs/ostree.yml
   - from-file: configs/flatpaks.yml
   - from-file: configs/extensions.yml
   - from-file: configs/system_things.yml
   - from-file: configs/akmods.yml
+  - from-file: theming/Theming.yml
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
 
