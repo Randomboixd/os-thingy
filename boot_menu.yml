@@ -1,0 +1,7 @@
+ublue_variants:
+  - label: randomboixd/os-thingy
+    ks: /kickstart/ublue-os.ks
+    flavors:
+      - label: personal_config
+
+# I don't know what this does but i seen it in other configurations so why not.

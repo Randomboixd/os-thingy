@@ -3,3 +3,11 @@ modules:
     install:
       - Blur my Shell
       - AppIndicator and KStatusNotifierItem Support
+      - Dash to Dock
+      - Desktop Icons NG (DING)
+
+  # To install pop shell
+  - type: rpm-ostree
+    install:
+      - gnome-shell-extension-pop-shell
+      - xprop
