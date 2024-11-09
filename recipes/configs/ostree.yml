@@ -1,8 +1,5 @@
 modules:
   - type: rpm-ostree
-    repos:
-      - xpadneo.repo # Use the copr repo for xpadneo.
     install:
       - distrobox
-      - xpadneo
       - gnome-tweaks
