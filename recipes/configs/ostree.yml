@@ -1,6 +1,10 @@
 modules:
   - type: rpm-ostree
+    repos:
+      - tailscale.repo
     install:
       - distrobox
       - gnome-tweaks
       - fastfetch
+      - tailscale
+      - waydroid
