@@ -13,7 +13,7 @@ unzip -qq mcmojave_icons.zip
 
 
 echo "Copying mcmojave_icons/src to usr/share/icons/McMojave-circle"
-cp  McMojave-circle-2024-04-11/src /usr/share/icons/McMojave-circle
+cp -r McMojave-circle-2024-04-11/src /usr/share/icons/McMojave-circle
 # I think we also need to copy that COPYING file which is the gpl-3.0 license. I really don't know what i am doing... But yeah we copy it over... just in case.
 cp McMojave-circle-2024-04-11/COPYING /usr/share/icons/McMojave-circle/COPYING
 # And also the authors.
