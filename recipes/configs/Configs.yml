@@ -1,0 +1,7 @@
+modules:
+  - from-file: configs/akmods.yml
+  - from-file: configs/GNOME/extensions.yml
+  - from-file: configs/flatpaks.yml
+  - from-file: configs/justfiles.yml
+  - from-file: configs/ostree.yml
+  - from-file: configs/system_packages.yml

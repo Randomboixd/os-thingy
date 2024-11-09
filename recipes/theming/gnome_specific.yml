@@ -2,3 +2,4 @@ modules:
   - type: gschema-overrides
     include:
       - zz1-accent-color.gschema.override
+      - zz1-terminal-shortcut.gschema.override

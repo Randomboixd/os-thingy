@@ -5,6 +5,7 @@ modules:
       - AppIndicator and KStatusNotifierItem Support
       - Dash to Dock
       - Desktop Icons NG (DING)
+      - System Monitor
 
   # To install pop shell
   - type: rpm-ostree

@@ -1,10 +1,7 @@
 #!/usr/bin/env bash
 set -oue pipefail
 
-echo "Current path: $(pwd)"
-
-echo "Attempting to download McMojave-circle icons..."
-echo "To be honest i am not entirely sure if this will work but here we go."
+echo "Downloading McMojave-circle icons..."
 
 curl -L -o mcmojave_icons.zip https://github.com/vinceliuice/McMojave-circle/archive/refs/tags/2024-04-11.zip
 
@@ -19,6 +16,7 @@ cp McMojave-circle-2024-04-11/COPYING /usr/share/icons/McMojave-circle/COPYING
 # And also the authors.
 cp McMojave-circle-2024-04-11/AUTHORS /usr/share/icons/McMojave-circle/AUTHORS
 
-# Finally clean up and remove McMojave-circle-2024-04-11 and it's zip.
+echo "Installed McMojave circle to /usr/share/icons/McMojave-circle! Cleaning up..."
 rm -r ./McMojave-circle-2024-04-11
 rm mcmojave_icons.zip
+echo "Installation successful!"
