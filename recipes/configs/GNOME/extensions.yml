@@ -5,7 +5,7 @@ modules:
       - AppIndicator and KStatusNotifierItem Support
       - Dash to Dock
       - Desktop Icons NG (DING)
-      - System Monitor
+      - 6807 # System monitor's ID, because multiple extensions use that name.
 
   # To install pop shell
   - type: rpm-ostree
