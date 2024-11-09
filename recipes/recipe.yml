@@ -20,6 +20,7 @@ modules:
       - fetch_mcmojave_icons.sh
 
   - from-file: configs/Configs.yml
+  - from-file: configs/GNOME/GNOME.yml
   - from-file: theming/Theming.yml
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully

@@ -1,0 +1,3 @@
+modules:
+  - from-file: configs/GNOME/extensions.yml
+  - from-file: configs/GNOME/gnomePackages.yml

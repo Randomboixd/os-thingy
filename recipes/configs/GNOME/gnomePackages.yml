@@ -1,0 +1,9 @@
+modules:
+  - type: default-flatpaks
+    notify: true
+    system:
+      install:
+        - org.gnome.eog
+        - org.videolan.VLC # the impostor. eh still the best one tbh
+        - org.gnome.Calculator
+        - org.gnome.Music
