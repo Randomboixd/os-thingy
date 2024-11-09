@@ -19,11 +19,7 @@ modules:
     scripts:
       - fetch_mcmojave_icons.sh
 
-  - from-file: configs/ostree.yml
-  - from-file: configs/flatpaks.yml
-  - from-file: configs/extensions.yml
-  - from-file: configs/system_things.yml
-  - from-file: configs/akmods.yml
+  - from-file: configs/Configs.yml
   - from-file: theming/Theming.yml
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
