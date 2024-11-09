@@ -1,0 +1,3 @@
+modules:
+  - type: justfiles
+    validate: true

@@ -1,0 +1,2 @@
+update:
+    rpm-ostree upgrade
