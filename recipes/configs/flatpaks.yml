@@ -1,0 +1,6 @@
+modules:
+  - type: default-flatpaks
+    notify: true
+    user:
+      install:
+        - io.github.dvlv.boxbuddyrs

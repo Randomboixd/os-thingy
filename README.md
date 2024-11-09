@@ -4,6 +4,12 @@ See the [BlueBuild docs](https://blue-build.org/how-to/setup/) for quick setup i
 
 After setup, it is recommended you update this README to describe your custom image.
 
+## (i don't know what i am doing)
+
+if you found this repo. well yeah i am trying to make a image here that i would use on my computer. No real idea what i am doing.
+
+Sooo yeah...
+
 ## Installation
 
 > **Warning**  
