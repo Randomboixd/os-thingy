@@ -3,4 +3,4 @@ modules:
     install:
       - distrobox
       - gnome-tweaks
-      - neofetch
+      - fastfetch
