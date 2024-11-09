@@ -9,13 +9,13 @@ curl -L -o mcmojave_icons.zip https://github.com/vinceliuice/McMojave-circle/arc
 echo "Unzipping mcmojave_icons.zip"
 unzip mcmojave_icons.zip
 
-echo "Copying mcmojave_icons/src to usr/share/icons/McMojave"
-mkdir -p usr/share/icons/McMojave
-cp -r mcmojave_icons/src usr/share/icons/McMojave
+echo "Copying mcmojave_icons/src to files/usr/share/icons/McMojave"
+mkdir -p files/usr/share/icons/McMojave
+cp -r mcmojave_icons/src files/usr/share/icons/McMojave
 # I think we also need to copy that COPYING file which is the gpl-3.0 license. I really don't know what i am doing... But yeah we copy it over... just in case.
-cp mcmojave_icons/COPYING usr/share/icons/McMojave/COPYING
+cp mcmojave_icons/COPYING files/usr/share/icons/McMojave/COPYING
 # And also the authors.
-cp mcmojave_icons/AUTHORS usr/share/icons/McMojave/AUTHORS
+cp mcmojave_icons/AUTHORS files/usr/share/icons/McMojave/AUTHORS
 
 # Finally clean up and remove mcmojave_icons and it's zip.
 rm -r ./mcmojave_icons
