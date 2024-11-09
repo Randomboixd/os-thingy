@@ -1,4 +1,4 @@
 modules:
-  - from-file: extensions.yml
-  - from-file: gnome_specific.yml
-  - from-file: icons.yml
+  - from-file: theming/extensions.yml
+  - from-file: theming/gnome_specific.yml
+  - from-file: theming/icons.yml
