@@ -1,5 +1,5 @@
 
-name: os-thingy-xanmod-edition
+name: os-thingy-xe
 description: it's the same as the other recipe but with the xanmod kernel.
 base-image: ghcr.io/ublue-os/silverblue-main
 image-version: latest

@@ -2,3 +2,4 @@ modules:
   - type: akmods
     install:
       - xpadneo
+      - xone
