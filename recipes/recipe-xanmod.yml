@@ -1,0 +1,28 @@
+
+name: os-thingy-xanmod-edition
+description: it's the same as the other recipe but with the xanmod kernel.
+base-image: ghcr.io/ublue-os/silverblue-main
+image-version: latest
+
+modules:
+  - type: files
+    files:
+      - source: system
+        destination:
+
+  - type: script
+    scripts:
+      - fetch_mcmojave_icons.sh
+  
+  - type: rpm-ostree
+    repos:
+      - xanmod.repo
+    install:
+      - kernel-xanmod-edge
+
+  - from-file: configs/Configs.yml
+  - from-file: configs/GNOME/GNOME.yml
+  - from-file: theming/Theming.yml
+
+  - type: signing
+
