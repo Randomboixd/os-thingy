@@ -10,6 +10,24 @@ if you found this repo. well yeah i am trying to make a image here that i would 
 
 Sooo yeah... this readme is anything but useful.
 
+## Editions
+
+- base (os-thingy)
+  ```bash
+  rpm-ostree rebase ostree-unverified-registry:ghcr.io/randomboixd/os-thingy:latest
+  ```
+
+  *Fedora silverblue, but with things like tailscale and xpadneo preinstalled.*
+
+- Xanmod Edition (os-thingy-xe)
+  ```bash
+  rpm-ostree rebase ostree-unverified-registry:ghcr.io/randomboixd/os-thingy-xe:latest
+  ```
+
+  *Almost the same as base, but with the xanmod kernel. From my experience xpadneo doesn't wanna work here... although could be a skill issue on my part*
+
+-
+
 ## Uninstallation
 
 > **Warning**
