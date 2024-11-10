@@ -10,6 +10,11 @@ modules:
       - source: system
         destination:
 
+  - type: files
+    files:
+      - source: editionoverrides/xanmod
+        destination: /
+
   - type: script
     scripts:
       - fetch_mcmojave_icons.sh
