@@ -1,3 +1,4 @@
+# This file is currently not valid. As we are downgrading to Fedora 40.
 NAME="Fedora Linux"
 VERSION="41.20241110.0 (Silverblue)"
 RELEASE_TYPE=stable
