@@ -2,7 +2,8 @@
 name: os-thingy-xe
 description: it's the same as the other recipe but with the xanmod kernel.
 base-image: ghcr.io/ublue-os/silverblue-main
-image-version: latest
+#image-version: latest
+image-version: 20241111 # Temporarily hold back system till xpadneo is updated to the new kernel.
 
 modules:
   - type: files

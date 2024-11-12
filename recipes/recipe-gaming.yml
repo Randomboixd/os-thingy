@@ -2,7 +2,8 @@
 name: os-thingy-ge
 description: Gaming edition of os-thingy.
 base-image: ghcr.io/ublue-os/silverblue-main
-image-version: latest
+#image-version: latest
+image-version: 20241111 # Temporarily hold back system till xpadneo is updated to the new kernel.
 
 modules:
   - type: files
