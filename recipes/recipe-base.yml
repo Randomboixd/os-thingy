@@ -6,7 +6,7 @@ description: An attempt to make a (somewhat) usable fedora image.
 # the base image to build on top of (FROM) and the version tag to use
 base-image: ghcr.io/ublue-os/silverblue-main
 #image-version: latest
-image-version: 20241111 # Temporarily hold back system till xpadneo is updated to the new kernel.
+image-version: 40 # Temporarily hold back system to fedora 40 till it's fixed? I have no idea if this works
 
 # module configuration, executed in order
 # you can include multiple instances of the same module
