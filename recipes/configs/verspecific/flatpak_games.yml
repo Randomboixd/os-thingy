@@ -1,0 +1,15 @@
+modules:
+  - type: default-flatpaks
+    notify: true
+    system:
+      install:
+        # Launchers. Steam for well, steam. and HGL for Epic, and other things like that.
+        - com.valvesoftware.Steam
+        - com.heroicgameslauncher.hgl
+
+        # Tools for proton. Like ProtonUp-QT
+        - net.davidotek.pupgui2 # ProtonUp-Qt
+        - com.github.Matoking.protontricks
+
+        # Additionally 3D Pinball Space Cadet.
+        - com.github.k4zmu2a.spacecadetpinball

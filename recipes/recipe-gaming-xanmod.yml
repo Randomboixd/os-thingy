@@ -1,6 +1,6 @@
 
-name: os-thingy-xe
-description: it's the same as the other recipe but with the xanmod kernel.
+name: os-thingy-xge
+description: Gaming edition of os-thingy. With bonus xanmod kernel inside!
 base-image: ghcr.io/ublue-os/silverblue-main
 image-version: latest
 
@@ -19,6 +19,7 @@ modules:
     scripts:
       - fetch_mcmojave_icons.sh
   
+  - from-file: configs/verspecific/flatpak_games.yml
   - from-file: configs/verspecific/xanmod.yml
   - from-file: configs/Configs.yml
   - from-file: configs/GNOME/GNOME.yml

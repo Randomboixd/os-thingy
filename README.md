@@ -19,6 +19,18 @@ Sooo yeah... this readme is anything but useful.
 
   *Fedora silverblue, but with things like tailscale and xpadneo preinstalled.*
 
+- Gaming (os-thingy-ge)
+  ```bash
+  rpm-ostree rebase ostree-unverified-registry:ghcr.io/randomboixd/os-thingy-ge:latest
+  ```
+  *Base, but with steam, proton utilities, and something extra installed... As flatpaks, the image size shouldn't be larger than base.*
+
+- Gaming Xanmod Edition (os-thingy-xge)
+  ```bash
+  rpm-ostree rebase ostree-unverified-registry:ghcr.io/randomboixd/os-thingy-xge:latest
+  ```
+  *Gaming, but with xanmod kernel.*
+
 - Xanmod Edition (os-thingy-xe)
   ```bash
   rpm-ostree rebase ostree-unverified-registry:ghcr.io/randomboixd/os-thingy-xe:latest

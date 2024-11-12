@@ -24,6 +24,8 @@ jobs:
           # !! Add your recipes here 
           - recipe-base.yml
           - recipe-xanmod.yml
+          - recipe-gaming.yml
+          - recipe-gaming-xanmod.yml
     steps:
        # the build is fully handled by the reusable github action
       - name: Build Custom Image
