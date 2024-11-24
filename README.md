@@ -1,3 +1,7 @@
+# This system is no longer being built.
+
+another reason to not use it.
+
 # os-thingy &nbsp; [![bluebuild build badge](https://github.com/randomboixd/os-thingy/actions/workflows/build.yml/badge.svg)](https://github.com/randomboixd/os-thingy/actions/workflows/build.yml) <-- if it fails then epic :3
 
 do this instead: see the [BlueBuild docs](https://blue-build.org/how-to/setup/) for quick setup instructions for setting up your own repository based on this template.
