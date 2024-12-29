@@ -1,9 +1,10 @@
 modules:
+  - type: script
+    snippets:
+      - "rpm-ostree override replace --experimental kernel-*"
   - type: rpm-ostree
     repos:
       - xanmod.repo
     install:
       - kernel-xanmod-edge
-    replace:
-      - kernel-*
     
