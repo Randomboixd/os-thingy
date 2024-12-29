@@ -2,7 +2,7 @@ modules:
 
   - type: script
     snippets:
-      - "rpm-ostree override remove kernel*"
+      - "rpm-ostree override replace kernel*"
   - type: rpm-ostree
     repos:
       - xanmod.repo
