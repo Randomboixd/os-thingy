@@ -6,6 +6,7 @@ base-image: ghcr.io/ublue-os/silverblue-main
 image-version: 40 # Temporarily hold back system to fedora 40 till it's fixed? I have no idea if this works
 
 modules:
+  - type: DON'T BUILD!!!! # Forces this to crash... Seriously dont build. If you want xanmod, do it locally.
   - type: files
     files:
       - source: system
