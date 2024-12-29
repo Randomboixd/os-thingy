@@ -1,8 +1,8 @@
 modules:
+
+  - type: script
+    snippets:
+      - "rpm-ostree override remove kernel*"
   - type: rpm-ostree
     repos:
       - xanmod.repo
-    install:
-      - kernel-xanmod-edge
-    remove:
-      - kernel-*
