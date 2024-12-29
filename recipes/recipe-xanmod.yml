@@ -22,6 +22,7 @@ modules:
   
   - from-file: configs/verspecific/xanmod.yml
   - from-file: configs/Configs.yml
+  - type: initramfs
   - from-file: configs/GNOME/GNOME.yml
   - from-file: theming/Theming.yml
 
