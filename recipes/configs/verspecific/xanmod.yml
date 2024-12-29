@@ -4,3 +4,5 @@ modules:
       - xanmod.repo
     install:
       - kernel-xanmod-edge
+    remove:
+      - kernel
