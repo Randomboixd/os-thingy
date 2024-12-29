@@ -44,6 +44,7 @@ modules:
   #- from-file: configs/akmods.yml
   - type: script
     snippets:
+      - "rm /usr/lib/udev/rules.d/60-xpadneo.rules" # Will this not work? Likely!
       - "wget -O /etc/yum.repos.d/copr-tmsp-xpadneo.repo https://copr.fedorainfracloud.org/coprs/tmsp/xpadneo/repo/fedora-41/tmsp-xpadneo-fedora-41.repo"
       - "rpm-ostree install xpadneo"
 
