@@ -1,8 +1,9 @@
 modules:
-
-  - type: script
-    snippets:
-      - "rpm-ostree replace kernel*"
   - type: rpm-ostree
     repos:
       - xanmod.repo
+    replace:
+      - kernel*
+    install:
+      - kernel-xanmod-edge
+    
