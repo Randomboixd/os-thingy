@@ -6,3 +6,6 @@ modules:
       - kernel-xanmod-edge
     remove:
       - kernel
+      - kernel-core
+      - kernel-modules
+      - kernel-modules-extra
