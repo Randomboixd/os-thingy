@@ -6,7 +6,7 @@ base-image: ghcr.io/ublue-os/silverblue-main
 image-version: 41
 
 modules:
-  - type: DON'T BUILD!!!! # Forces this to crash... Seriously dont build. If you want xanmod, do it locally.
+  #- type: DON'T BUILD!!!! # Forces this to crash... Seriously dont build. If you want xanmod, do it locally.
   - type: files
     files:
       - source: system
@@ -21,8 +21,34 @@ modules:
     scripts:
       - fetch_mcmojave_icons.sh
   
-  - from-file: configs/verspecific/xanmod.yml
-  - from-file: configs/Configs.yml
+  - type: rpm-ostree
+    repos:
+      - xanmod.repo
+    install:
+      - kernel-xanmod-edge
+      - kernel-xanmod-edge-core
+      - kernel-xanmod-edge-devel
+      - kernel-xanmod-edge-devel-matched
+      - kernel-xanmod-edge-headers
+      - kernel-xanmod-edge-modules
+    remove:
+      - kernel
+      - kernel-core
+      - kernel-modules
+      - kernel-modules-extra
+      - kernel-headers
+      - kernel-devel
+
+  - type: script
+    scripts:
+      - add_xpadneo_manually.sh
+
+  # basically the contents of Configs.yml but without step to get akmods things
+  - from-file: configs/flatpaks.yml
+  - from-file: configs/justfiles.yml
+  - from-file: configs/ostree.yml
+  - from-file: configs/system_packages.yml
+  
   - type: initramfs
   - from-file: configs/GNOME/GNOME.yml
   - from-file: theming/Theming.yml
