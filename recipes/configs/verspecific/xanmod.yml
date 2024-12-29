@@ -2,8 +2,8 @@ modules:
   - type: rpm-ostree
     repos:
       - xanmod.repo
-    replace:
-      - kernel*
     install:
       - kernel-xanmod-edge
+    replace:
+      - kernel-*
     
