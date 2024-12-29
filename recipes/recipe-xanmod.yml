@@ -36,7 +36,6 @@ modules:
       - kernel-core
       - kernel-modules
       - kernel-modules-extra
-      - kernel-headers
 
   - type: script
     scripts:
