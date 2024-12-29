@@ -3,7 +3,7 @@ name: os-thingy-xe
 description: it's the same as the other recipe but with the xanmod kernel.
 base-image: ghcr.io/ublue-os/silverblue-main
 #image-version: latest
-image-version: 40 # Temporarily hold back system to fedora 40 till it's fixed? I have no idea if this works
+image-version: 41
 
 modules:
   - type: files
