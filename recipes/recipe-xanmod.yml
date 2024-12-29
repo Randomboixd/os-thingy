@@ -24,8 +24,6 @@ modules:
   #- type: script
   #  scripts:
   #    - add_xpadneo_manually.sh
-
-  - from-file: configs/akmods.yml
   
   - type: rpm-ostree
     repos:
@@ -42,6 +40,8 @@ modules:
       - kernel-core
       - kernel-modules
       - kernel-modules-extra
+
+  - from-file: configs/akmods.yml
 
   # basically the contents of Configs.yml but without step to get akmods things
   - from-file: configs/flatpaks.yml
