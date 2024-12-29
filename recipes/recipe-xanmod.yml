@@ -21,13 +21,11 @@ modules:
     scripts:
       - fetch_mcmojave_icons.sh
 
-  - type: rpm-ostree
-    install:
-      - dkms
+  #- type: script
+  #  scripts:
+  #    - add_xpadneo_manually.sh
 
-  - type: script
-    scripts:
-      - add_xpadneo_manually.sh
+  - from-file: configs/akmods.yml
   
   - type: rpm-ostree
     repos:
