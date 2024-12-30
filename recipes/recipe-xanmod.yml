@@ -41,9 +41,9 @@ modules:
       - kernel-modules
       - kernel-modules-extra
 
-  - type: rpm-ostree
-    install:
-      - xpadneo-kmod-common
+  #- type: rpm-ostree
+  #  install:
+  #    - xpadneo-kmod-common
 
   # basically the contents of Configs.yml but without step to get akmods things
   - from-file: configs/flatpaks.yml
