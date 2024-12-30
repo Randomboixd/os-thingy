@@ -46,7 +46,12 @@ modules:
     snippets:
       #- "rpm-ostree install xpadneo" # This will likely try to install the kmod?
       - "wget -O /etc/yum.repos.d/copr-tmsp-xpadneo.repo https://copr.fedorainfracloud.org/coprs/tmsp/xpadneo/repo/fedora-41/tmsp-xpadneo-fedora-41.repo"
-      - "rpm-ostree remove xpadneo-kmod-common --install xpadneo"
+
+  - type: rpm-ostree
+    install:
+      - xpadneo
+    remove:
+      - xpadneo-kmod-common
 
   # basically the contents of Configs.yml but without step to get akmods things
   - from-file: configs/flatpaks.yml
